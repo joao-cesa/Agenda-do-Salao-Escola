@@ -1,0 +1,25 @@
+# Segredos e configuração local (NUNCA versionar)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Banco H2 em arquivo gerado localmente
+dados/
+*.mv.db
+*.trace.db
+
+# Build
+target/
+HELP.md
+
+# IDEs e sistema
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.DS_Store
+Thumbs.db

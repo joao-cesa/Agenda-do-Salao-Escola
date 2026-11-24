@@ -118,7 +118,7 @@ Implementar e demonstrar a regra de conflitos, horário de funcionamento e agend
 
 ## Execução e testes
 
-Instruções de instalação, configuração de `DATABASE_URL`, execução dos scripts SQL e inicialização da aplicação serão adicionadas após a definição da linguagem, do framework e do banco.
+Pré-requisitos (JDK 17+ e Maven), configuração segura de `DATABASE_URL` a partir do `.env.example`, execução dos scripts SQL e inicialização da aplicação: veja [docs/execucao.md](docs/execucao.md). Resumo: `Copy-Item .env.example .env` e depois `mvn spring-boot:run`.
 
 Os testes devem cobrir os critérios de aceitação acima e incluir casos inválidos. Os resultados e as evidências da atividade serão registrados em `evidencias/`.
 
